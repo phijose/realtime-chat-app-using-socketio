@@ -1,0 +1,72 @@
+
+.panel-default{
+    margin-top: 20px;
+    height: calc(100vh - 40px);
+}
+
+.panel-body{
+    height: calc(100vh - 98px);
+    flex-direction: column;
+    display: flex;
+}
+
+.msg{
+    width: calc(100% - 75px);
+    display: inline;
+    margin-right: 10px;
+}
+
+
+pic{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2;
+    color: white;
+}
+
+msg{
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin: 0px 8px 8px;
+    display: flex;
+
+}
+
+.ext-msg{
+    background-color:#f5f5f5;
+}
+
+.int-msg{
+    background-color:#e0e0e0;
+}
+
+.person-msg{
+    padding: 3px;
+}
+
+.external-msg{
+    display: inline-flex;
+    float: left;
+}
+
+.internal-msg{
+    display: inline-flex;
+    float: right;
+    justify-content: flex-end;
+}
+
+.notify-msg{
+    text-align: center;
+    margin: 4px;
+}
+
+.notify-msg i{
+    background-color: #f2ebbb;
+    padding: 2px 7px;
+    border-radius: 5px;
+    color: #525252;
+}
